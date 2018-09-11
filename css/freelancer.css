@@ -1,3 +1,4 @@
+/*Copyright (c) 2018 by Rico Sta. Cruz (https://codepen.io/rstacruz/pen/oxJqNv)*//*Copyright (c) 2018 by Ana Tudor (https://codepen.io/thebabydino/pen/yeyYYd)*/
 body {
   font-family: "Lato";
 }
@@ -187,7 +188,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(1rem + 106px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
