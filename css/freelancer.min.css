@@ -131,7 +131,7 @@ section h2 {
   color: #b78e66;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #b762be;
+  color: #FF99AC;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav
@@ -237,7 +237,7 @@ header.masthead {
 }
 header.masthead h1 {
   position: absolute;
-  color: #FF99AC;
+  color: #FF6A88;
   top: 17rem;
   left: 0;
   right: 0;
