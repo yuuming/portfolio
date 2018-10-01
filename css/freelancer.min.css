@@ -81,6 +81,15 @@ section h2 {
   animation: animScale 3s infinite ease-out;
   transform-origin: 50% 50%;
   animation-play-state: running;
+}.moodIcon {
+  margin-left: auto;  
+  margin-right: auto;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}.disp-block {
+  display: block; 
 }
 @keyframes animScale {
   0% {
