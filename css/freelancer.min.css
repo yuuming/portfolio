@@ -121,7 +121,7 @@ section h2 {
   font-family: Mediata;
 }
 #mainNav .navbar-brand {
-  color: #b762be;
+  color: #5271e1;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -274,8 +274,8 @@ header.masthead h2 {
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4em;
-    line-height: 4rem;
+    font-size: 3.5em;
+    line-height: 5rem;
   }
   header.masthead h2 {
     font-size: 1.75em;
