@@ -709,10 +709,18 @@
 
     // const debouncedBubbles = debounce(initBubbles, 300)
 
-    window.addEventListener('resize', () => {
-      initBubbles()
-    })
+    // window.addEventListener('resize', () => {
+    //   initBubbles()
+    // })
+    var queue = null;
+    var wait = 400;
 
+    window.addEventListener('resize', () => {
+      clearTimeout(queue);
+      queue = setTimeout(function () {
+        initBubbles();
+      }, wait);
+    }, false)
 
   </script>
 
