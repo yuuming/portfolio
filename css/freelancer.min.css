@@ -129,6 +129,7 @@ section h2 {
   font-weight: 700;
   font-family: Mediata;
   background-color: #fff;
+  opacity: 0.8;
 }
 #mainNav .navbar-brand {
   color: #5271e1;
@@ -159,8 +160,8 @@ section h2 {
 }
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
