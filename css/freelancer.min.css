@@ -381,7 +381,7 @@ header.masthead h2 {
   border: 5px solid #b762be;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 .portfolio
   .portfolio-item
