@@ -189,6 +189,9 @@ section h2 {
     font-size: 1em;
   }
 }
+.mainNav {
+  margin: 10px auto;
+}
 .navbar .navbar-nav li {
   position: relative;
   overflow: hidden;
