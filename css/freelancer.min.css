@@ -126,7 +126,7 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: Mediata;
   background-color: #fff;
   opacity: 0.8;
@@ -160,8 +160,8 @@ section h2 {
 }
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -182,8 +182,8 @@ section h2 {
     .navbar-nav
     > li.nav-item
     > #mainNav.navbar-shrink {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1em;
@@ -251,7 +251,7 @@ header.masthead {
 }
 header.masthead h1 {
   position: absolute;
-  color: #FF6A88;
+  color: #1d1e49;
   top: 17rem;
   left: 0;
   right: 0;
@@ -557,7 +557,7 @@ a:hover {
   color: #b762be !important;
 }
 .text-secondary {
-  color: #246587 !important;
+  color: #1d1e49 !important;
 }
 .btn-primary {
   background-color: #dd80d6;
