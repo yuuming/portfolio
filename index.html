@@ -69,7 +69,8 @@
   </header>
 
   <!-- Portfolio Grid Section -->
-  <section class="portfolio" id="portfolio">
+  <div id="pinContainer">
+  <section class="panel portfolio" id="portfolio">
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
       <!-- <hr class="star-dark mb-5"> -->
@@ -146,7 +147,7 @@
   </section>
 
   <!-- About Section -->
-  <section class="secondary" id="about">
+  <section class=" panel secondary" id="about">
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0">About Me</h2>
       <!-- <hr class="star-light mb-5"> -->
@@ -195,7 +196,7 @@
   </section>
 
   <!-- Skills & Tools -->
-  <section class="skill" id="skill">
+  <section class=" panel skill" id="skill">
           <h2 class="text-center text-uppercase">Skills & Tools</h2>
     <div class="row">
         <div class="col-lg-6 ml-auto">
@@ -240,7 +241,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact">
+  <section id="panel contact">
     <div class="container">
       <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
       <p class="lead text-center">Please message me If you are interested in my work. </p>
@@ -291,6 +292,7 @@
       </div>
     </div>
   </section>
+</div>
 
   <!-- Footer -->
   <footer class="footer text-center">
@@ -615,7 +617,10 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
   <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
    <!-- Plugin ScrollMagic JavaScript -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+<script src="wp_enqueue_script('scroll_magic_gsap_ibrary', SCROLLMAGIC205."plugins/plugins/animation.gsap.js"></script>
   <!-- Contact Form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
@@ -732,8 +737,38 @@
       }, wait);
     }, false)
 
+$(function(){
+  var controller = new ScrollMagic.Controller();
+  var wipeAnimation = new TimelineMax()
+  .fromTo("section.portfolio", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})
+  .fromTo("section.secondary", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})
+  .fromTo("section.skill", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone});
+   new ScrollMagic.Scene({
+     triggerElement: "#pinContainer",
+     triggerHook: "onLeave",
+     duration: "300%"
+   })
+   .setPin("#pinContainer")
+   .addIndicators()
+   .setTween(wipeAnimation)
+   .addTo(controller);
+});
+// $(function(){
+//   var controller = new ScrollMagic.Controller();
+//   var wipeAnimation = new TimelineMax()
+//   .fromTo("section.portfolio", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})
+//   .fromTo("section.secondary", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})
+//   .fromTo("section.skill", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone});
+//    new ScrollMagic.Scene({
+//      triggerElement: "#pinContainer",
+//      triggerHook: "onLeave",
+//      duration: "300%"
+//    })
+//    .setPin("#pinContainer")
+//    .addIndicators( {name: "Indicator Name"})
+//    .setTween(wipeAnimation)
+//    .addTo(controller);
+// });
   </script>
-
 </body>
-
 </html>
