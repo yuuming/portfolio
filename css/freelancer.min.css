@@ -604,7 +604,7 @@ a:hover {
 }
 
 .skill {
-  background-color: #ffbccb;
+  background-color: #fecbd9;
 }
 .bar { 
 	height:18px; 
@@ -620,26 +620,14 @@ a:hover {
 	width:100%; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #f674a4;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
-	background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
-	background-image: -moz-linear-gradient(top, #f674a4, #e06995);
-	background-image: -ms-linear-gradient(top, #f674a4, #e06995);
-	background-image: -o-linear-gradient(top, #f674a4, #e06995);
-	background-image: linear-gradient(top, #f674a4, #e06995);
+	background-color: #847ee6;
 }
 
 .bar_color {
 	width:90%;
 	-moz-animation:html-css 2s ease-out;
 	-webkit-animation:html-css 2s ease-out;
-	background-color: #f0bb4b;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0bb4b), to(#d9aa44));
-	background-image: -webkit-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: -moz-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: -ms-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: -o-linear-gradient(top, #f0bb4b, #d9aa44);
-	background-image: linear-gradient(top, #f0bb4b, #d9aa44);
+	background-color: #847ee6;
 }
 
 @-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
