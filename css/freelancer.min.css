@@ -581,7 +581,6 @@ a:hover {
 }#skill { 
 	list-style: none;
 	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	margin: 7px 50px;
 	position: relative;
 	line-height: 2em;
 	padding: 30px 0;
@@ -590,7 +589,12 @@ a:hover {
   margin-bottom: 0px;
   font-size:20px;
 }
+#skill ul{
+  margin-left: 40px;
+  margin-right: 40px;
+}
 #skill li { 
+
 	margin-bottom:1px; 
 	background:#e9e5e2;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
@@ -606,7 +610,9 @@ a:hover {
 	box-shadow: 0 1px 0px #bebbb9 inset, 0 1px 0 #fcfcfc;	  
 }
 
-
+.skill {
+  background-color: #ffbccb;
+}
 .bar { 
 	height:18px; 
 	margin:1px 2px;  
