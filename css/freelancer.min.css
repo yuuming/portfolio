@@ -251,7 +251,7 @@ header.masthead {
 }
 header.masthead h1 {
   position: absolute;
-  color: #1d1e49;
+  color: #8b85e6 !important;
   top: 17rem;
   left: 0;
   right: 0;
@@ -627,14 +627,14 @@ a:hover {
 	width:85%; 
 	-moz-animation:bar_85 2s ease-out;
 	-webkit-animation:bar_85 2s ease-out;
-	background-color: #847ee6;
+	background-color: #8b85e6;
 }
 
 .bar_70 {
 	width:70%;
 	-moz-animation:bar_70 2s ease-out;
 	-webkit-animation:bar_70 2s ease-out;
-	background-color: #847ee6;
+	background-color: #8b85e6;
 }
 
 @-moz-keyframes bar_85 {0%  { width:0px;} 100%{ width:85%;}  }
