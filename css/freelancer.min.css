@@ -10,7 +10,7 @@ h5,
 h6{
   font-weight: 600;
   font-family: Mediata;
-  padding: 3rem;
+  padding: 2rem;
   color: #222222;
 }
 hr.star-dark,
@@ -586,28 +586,35 @@ a:hover {
 	padding: 30px 0;
 }
 #skill p {
-  margin-bottom: 1px;
-  font-size:20px;
+  margin-bottom: 4px;
+  font-size:22px;
 }
+#skill h3 {
+ color: #ffffff;
+ padding: 0rm;
+}
+#skill h2 {
+  color: #ffffff;
+ }
 #skill ul{
   color: #ffffff;
-  opacity: 0.8;
-  margin-left: 40px;
-  margin-right: 40px;
+  opacity: 0.9;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 #skill li { 
-
-	margin-bottom:5px; 
+	margin-bottom:8px; 
 	background:#ffffff;
-	height:20px; 
+	height:25px; 
 	border-radius:10px;   
 }
 
 .skill {
   background-color: #fecbd9;
 }
+
 .bar { 
-	height:18px; 
+	height:25px; 
 	margin:1px 2px;  
 	position:absolute;
 	border-radius:10px;
@@ -616,26 +623,22 @@ a:hover {
 	box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;		
 }
 
-.graphic-design {
-	width:100%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
+.bar_85 {
+	width:85%; 
+	-moz-animation:bar_85 2s ease-out;
+	-webkit-animation:bar_85 2s ease-out;
 	background-color: #847ee6;
 }
 
-.bar_color {
-	width:90%;
-	-moz-animation:html-css 2s ease-out;
-	-webkit-animation:html-css 2s ease-out;
+.bar_70 {
+	width:70%;
+	-moz-animation:bar_70 2s ease-out;
+	-webkit-animation:bar_70 2s ease-out;
 	background-color: #847ee6;
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:100%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes bar_85 {0%  { width:0px;} 100%{ width:85%;}  }
+@-moz-keyframes bar_70 { 0%  { width:0px;} 100%{ width:70%;}  }
 
-@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:100%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
-@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes bar_85  { 0%  { width:0px;} 100%{ width:85%;}  }
+@-webkit-keyframes bar_70  { 0%  { width:0px;} 100%{ width:70%;}  }
