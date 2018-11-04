@@ -736,7 +736,6 @@
       }, wait);
     }, false)
 
-$(function(){
   var controller = new ScrollMagic.Controller();
   var wipeAnimation = new TimelineMax()
   .fromTo("section.portfolio", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})
@@ -752,7 +751,6 @@ $(function(){
    .addIndicators()
    .setTween(wipeAnimation)
    .addTo(controller);
-});
 
   </script>
 </body>
