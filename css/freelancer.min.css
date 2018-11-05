@@ -648,3 +648,22 @@ a:hover {
 
 @-webkit-keyframes bar_85  { 0%  { width:0px;} 100%{ width:85%;}  }
 @-webkit-keyframes bar_70  { 0%  { width:0px;} 100%{ width:70%;}  }
+.fadeInDown {
+  -webkit-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  animation-fill-mode:both;
+  -webkit-animation-duration:2s;
+  -ms-animation-duration:2s;
+  animation-duration:2s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important;
+ }
+ @-webkit-keyframes fadeInDown {
+  0% { opacity: 0; -webkit-transform: translateY(20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); }
+ }
+ @keyframes fadeInDown {
+  0% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
+  100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+ }
