@@ -281,11 +281,9 @@
             </div> -->
             <br>
             <div>
-
               <h5 class="text-center">Get in touch with me <a class="btn-social2 text-center" href="mailto:yuuming.n@gmail.com">
                   <i class="fa fa-fw fa-envelope-open"></i>
                 </a></h5>
-
             </div>
           </form>
         </div>
@@ -736,11 +734,29 @@
       }, wait);
     }, false)
 
+
+// var controller = new ScrollMagic.Controller({
+//   globalSceneOptions: {
+//     triggerHook: 'onLeave'
+//   }
+// });
+// var slides = document.querySelectorAll('#panel');
+// for (var i=0; i<slides.length; i++) {
+//   new ScrollMagic.Scene ({
+//     triggerElement: slides[i]
+//   })
+//   .setPin(slides[i])
+//   .addIndicators()
+//   .addTo(controller);
+// }
+
+
+//======= scrollmagic one =====
   var controller = new ScrollMagic.Controller();
   var wipeAnimation = new TimelineMax()
   .fromTo("section.portfolio", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})
   .fromTo("section.secondary", 1, {x: "100%"}, {x: "0%", ease: Linear.easeNone})
-  .fromTo("section.skill", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone});
+  .fromTo("section.skill", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone});
    new ScrollMagic.Scene({
      triggerElement: "#pinContainer",
      triggerHook: "onLeave",
@@ -751,7 +767,7 @@
    .addIndicators()
    .setTween(wipeAnimation)
    .addTo(controller);
-
+//======= END ========
   </script>
 </body>
 </html>
