@@ -246,7 +246,7 @@ section h2 {
 }
 header.masthead {
   height: 800px;
-  padding-top: calc(6rem + 72px);
+  padding-top: 0rem;
   padding-bottom: 6rem;
 }
 header.masthead h1 {
@@ -297,7 +297,7 @@ header.masthead h2 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(1rem + 106px);
+    padding-top: 0rem;
     padding-bottom: 6rem;
   }
   header.masthead h1 {
@@ -625,16 +625,16 @@ a:hover {
 
 .bar_85 {
 	width:85%; 
-	-moz-animation:bar_85 2s ease-out;
-	-webkit-animation:bar_85 2s ease-out;
-	background-color: #8b85e6;
+	-moz-animation:bar_85 3s ease-out;
+  -webkit-animation:bar_85 3s ease-out;
+  background-color: #8b85e6;
 }
 
 .bar_70 {
 	width:70%;
-	-moz-animation:bar_70 2s ease-out;
-	-webkit-animation:bar_70 2s ease-out;
-	background-color: #8b85e6;
+	-moz-animation:bar_70 3s ease-out;
+  -webkit-animation:bar_70 3s ease-out;
+  background-color: #8b85e6;
 }
 
 @-moz-keyframes bar_85 {0%  { width:0px;} 100%{ width:85%;}  }
@@ -661,3 +661,4 @@ a:hover {
   0% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
   100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
  }
+  
