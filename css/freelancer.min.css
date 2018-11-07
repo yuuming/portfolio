@@ -1,6 +1,6 @@
 /*Copyright (c) 2018 by Rico Sta. Cruz (https://codepen.io/rstacruz/pen/oxJqNv)*/ /*Copyright (c) 2018 by Ana Tudor (https://codepen.io/thebabydino/pen/yeyYYd)*/
 body {
-  font-family: Mediata;
+  font-family: 'Montserrat', sans-serif;
 }
 h1,
 h2,
@@ -9,9 +9,12 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  font-family: Mediata;
+  font-family: 'Montserrat', sans-serif;
   padding: 2rem;
   color: #222222;
+}
+.row p {
+  font-family: 'Raleway', sans-serif;
 }
 hr.star-dark,
 hr.star-light {
@@ -129,7 +132,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 600;
-  font-family: Mediata;
+  font-family: 'Montserrat', sans-serif;
   background-color: #fff;
   opacity: 0.8;
 }
@@ -426,7 +429,7 @@ max-width: 25rem;
 	align-items: center;
   color: #000;
   font-weight: 600;
-  font-family: Mediata;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	filter: blur(4px);
 }
@@ -446,7 +449,7 @@ max-width: 25rem;
 	align-items: center;
   color: #000;
   font-weight: 600;
-  font-family: Mediata;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	filter: blur(4px);
 }
@@ -466,7 +469,7 @@ max-width: 25rem;
 	align-items: center;
   color: #000;
   font-weight: 600;
-  font-family: Mediata;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	filter: blur(4px);
 }
