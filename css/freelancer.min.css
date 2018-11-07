@@ -375,7 +375,9 @@ header.masthead h2 {
   max-width: 25rem;
   margin-bottom: 15px;
   height: 20rem;
+  
 }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -511,8 +513,6 @@ header.masthead h2 {
   -moz-transition: top 0.3s ease, opacity 0.3s ease;
   -ms-transition: top 0.3s ease, opacity 0.3s ease;
   transition: top 0.3s ease, opacity 0.3s ease;
-  vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
 }
 .floating-label-form-group:not(:first-child) {
