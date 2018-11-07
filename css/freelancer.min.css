@@ -28,29 +28,7 @@ hr.star-light {
   margin-left: auto;
   margin-right: auto;
 }
-hr.star-dark:after,
-hr.star-light:after {
-  position: relative;
-  top: -0.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: "\f005";
-  font-family: FontAwesome;
-  font-size: 2em;
-}
-hr.star-light {
-  border-color: #fff;
-}
-hr.star-light:after {
-  color: #fff;
-}
-hr.star-dark {
-  border-color: #2c3e50;
-}
-hr.star-dark:after {
-  color: #2c3e50;
-  background-color: #fff;
-}
+
 section {
   padding: 6rem 0;
 }
@@ -132,6 +110,7 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 600;
+  font-size: 0.8rem;
   font-family: 'Montserrat', sans-serif;
   background-color: #fff;
   opacity: 0.8;
@@ -257,7 +236,6 @@ header.masthead {
 header.masthead h1 {
   position: absolute;
   font-size: 5em;
-  font: "Signika", sans-serif !important;
   user-select: none;
   top: 17rem;
   left: 0;
@@ -300,7 +278,6 @@ header.masthead h2 {
 }
 header.masthead h2 {
   font-size: 1.7rem;
-  font-family: Lato;
 }
 @media (min-width: 992px) {
   header.masthead {
