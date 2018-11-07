@@ -377,8 +377,115 @@ header.masthead h2 {
   height: 20rem;
   
 }
-
-.portfolio .portfolio-item .portfolio-item-caption {
+.imgWrap {
+	overflow: hidden;
+}
+.imgEff {
+  position: relative;
+  display: block;
+max-width: 25rem;
+	height: 20rem;
+	transition-duration: 0.3s;
+}
+.imgEff2 {
+  position: relative;
+  display: block;
+max-width: 25rem;
+	height: 20rem;
+	transition-duration: 0.3s;
+}
+.imgEff3 {
+  position: relative;
+  display: block;
+max-width: 25rem;
+	height: 20rem;
+	transition-duration: 0.3s;
+}
+.imgEff:hover {
+	transform: scale(1.1);
+}
+.imgEff2:hover {
+	transform: scale(1.1);
+}
+.imgEff3:hover {
+	transform: scale(1.1);
+}
+.imgEff:before {
+	position: absolute;
+  height: 100%;
+  width: 100%;
+	transition-duration: 0.3s;
+  opacity: 0; 
+  white-space: pre;
+  content: '\00a0　Berdie\A Android App\A　\00a0\00a0Java';
+  border: 52px solid #92EFF7;
+	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
+  display: flex; 
+  justify-content: center; 
+  vertical-align: middle;
+	align-items: center;
+  color: #000;
+  font-weight: 600;
+  font-family: Mediata;
+	font-size: 16px;
+	filter: blur(4px);
+}
+.imgEff2:before {
+	position: absolute;
+  height: 100%;
+  width: 100%;
+	transition-duration: 0.3s;
+  opacity: 0; 
+  white-space: pre;
+  content: '\00a0　MOOD\00a0JAR\A Android / IOS App\A　\00a0React Native';
+  border: 52px solid #92EFF7;
+	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
+  display: flex; 
+  justify-content: center; 
+  vertical-align: middle;
+	align-items: center;
+  color: #000;
+  font-weight: 600;
+  font-family: Mediata;
+	font-size: 16px;
+	filter: blur(4px);
+}
+.imgEff3:before {
+	position: absolute;
+  height: 100%;
+  width: 100%;
+	transition-duration: 0.3s;
+  opacity: 0; 
+  white-space: pre;
+  content: '\00a0\00a0Quiz App\A Android App\A　\00a0\00a0Java';
+  border: 52px solid #92EFF7;
+	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
+  display: flex; 
+  justify-content: center; 
+  vertical-align: middle;
+	align-items: center;
+  color: #000;
+  font-weight: 600;
+  font-family: Mediata;
+	font-size: 16px;
+	filter: blur(4px);
+}
+.imgEff:hover:before {
+  opacity: 1; 
+  transform: scale(1.3);
+	filter: blur(0); 
+}
+.imgEff2:hover:before {
+  opacity: 1; 
+  transform: scale(1.3);
+	filter: blur(0); 
+}
+.imgEff3:hover:before {
+  opacity: 1; 
+  transform: scale(1.3);
+	filter: blur(0); 
+}
+.portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
