@@ -398,7 +398,7 @@ max-width: 25rem;
   opacity: 0; 
   white-space: pre;
   content: '\00a0　Berdie\A Android App\A　\00a0\00a0Java';
-  border: 52px solid #92EFF7;
+  border: 43px solid #92EFF7;
 	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
   display: flex; 
   justify-content: center; 
@@ -417,7 +417,7 @@ max-width: 25rem;
   opacity: 0; 
   white-space: pre;
   content: '\00a0　MOOD\00a0JAR\A Android / IOS App\A　\00a0React Native';
-  border: 52px solid #92EFF7;
+  border: 43px solid #92EFF7;
 	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
   display: flex; 
   justify-content: center; 
@@ -436,7 +436,7 @@ max-width: 25rem;
   opacity: 0; 
   white-space: pre;
   content: '\00a0\00a0Quiz App\A Android App\A　\00a0\00a0Java';
-  border: 52px solid #92EFF7;
+  border: 43px solid #92EFF7;
 	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
   display: flex; 
   justify-content: center; 
@@ -666,7 +666,7 @@ a:hover {
 }
 #skill {
   list-style: none;
-  font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-family: 12px 'Montserrat', sans-serif;;
   position: relative;
   line-height: 2em;
   padding: 30px 0;
@@ -676,32 +676,26 @@ a:hover {
   font-size: 22px;
 }
 #skill h3 {
-  color: #ffffff;
+  color: #8b85e6;
   padding: 0rm;
 }
-#skill h2 {
-  color: #ffffff;
-}
+
 #skill ul {
-  color: #ffffff;
+  /* color: #c6a585; */
   opacity: 0.9;
   margin-left: 50px;
   margin-right: 50px;
 }
 #skill li {
   margin-bottom: 8px;
-  background: #ffffff;
+  background: #bebbb9;
   height: 25px;
   border-radius: 10px;
 }
 
-.skill {
-  background-color: #fecbd9;
-}
-
 .bar {
   height: 25px;
-  margin: 1px 2px;
+  /* margin: 1px 2px; */
   position: absolute;
   border-radius: 10px;
   -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
