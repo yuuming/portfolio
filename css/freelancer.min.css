@@ -408,7 +408,6 @@ max-width: 25rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	filter: blur(4px);
 }
 .imgEff2:before {
 	position: absolute;
@@ -428,7 +427,6 @@ max-width: 25rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	filter: blur(4px);
 }
 .imgEff3:before {
 	position: absolute;
@@ -448,22 +446,18 @@ max-width: 25rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
-	filter: blur(4px);
 }
 .imgEff:hover:before {
   opacity: 1; 
   transform: scale(1.3);
-	filter: blur(0); 
 }
 .imgEff2:hover:before {
   opacity: 1; 
   transform: scale(1.3);
-	filter: blur(0); 
 }
 .imgEff3:hover:before {
   opacity: 1; 
   transform: scale(1.3);
-	filter: blur(0); 
 }
 .portfolio-item-caption {
   -webkit-transition: all ease 0.5s;
