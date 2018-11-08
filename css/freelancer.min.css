@@ -230,7 +230,7 @@ section h2 {
 }
 header.masthead {
   height: 800px;
-  padding-top: 0rem;
+  padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
 }
 header.masthead h1 {
@@ -281,7 +281,7 @@ header.masthead h2 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: 0rem;
+    padding-top: calc(1rem + 106px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
