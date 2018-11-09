@@ -1,6 +1,7 @@
 /*Copyright (c) 2018 by Rico Sta. Cruz (https://codepen.io/rstacruz/pen/oxJqNv)*/ /*Copyright (c) 2018 by Ana Tudor (https://codepen.io/thebabydino/pen/yeyYYd)*/
 body {
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden
 }
 h1,
 h2,
@@ -229,7 +230,7 @@ section h2 {
   top: 0;
 }
 header.masthead {
-  height: 700px;
+  /* height: 700px; */
   padding-top: calc(0rem + 72px);
   padding-bottom: 6rem;
 }
