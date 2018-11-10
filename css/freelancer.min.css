@@ -231,8 +231,8 @@ section h2 {
 }
 header.masthead {
   /* height: 700px; */
-  padding-top: calc(0rem + 72px);
-  padding-bottom: 6rem;
+  padding-top: calc(0rem);
+  padding-bottom: 1rem;
 }
 header.masthead h1 {
   position: absolute;
@@ -282,8 +282,8 @@ header.masthead h2 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(1rem + 106px);
-    padding-bottom: 6rem;
+    padding-top: calc(0rem);
+    padding-bottom: 1rem;
   }
   header.masthead h1 {
     font-size: 3.5em;
