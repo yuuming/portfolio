@@ -298,33 +298,6 @@ header.masthead h2 {
     color: #5271e1;
   }
 }
-.wave {
-  top: 15%;
-  left: 32%;
-  opacity: 0.4;
-  position: absolute;
-  padding: 20%;
-  /* border-radius: 50%; */
-  background-color: #faaca8;
-
-  transform-origin: 50% 53%;
-  border-radius: 43%;
-  animation: drift 3000ms infinite linear;
-}
-.wave.-three {
-  width: 7em;
-  height: 1em;
-  background: #faaca8;
-  animation: drift 5000ms infinite linear;
-}
-
-.wave.-two {
-  width: 7em;
-  height: 1em;
-  animation: drift 7000ms infinite linear;
-  opacity: 0.1;
-  background: yellow;
-}
 .container:after {
   content: "";
   display: block;
