@@ -329,7 +329,6 @@ header.masthead h2 {
   max-width: 25rem;
   margin-bottom: 15px;
   height: 20rem;
-  
 }
 .imgWrap {
 	overflow: hidden;
@@ -371,17 +370,16 @@ max-width: 25rem;
 	transition-duration: 0.3s;
   opacity: 0; 
   white-space: pre;
-  content: '\00a0　Berdie\A Android App\A　\00a0\00a0Java';
-  border: 43px solid #92EFF7;
-	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
+  content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0 Berdie\A Android App\00a0/\00a0Java';
+	background: radial-gradient(rgba(0, 0, 0,0.6), #000); 
   display: flex; 
   justify-content: center; 
   vertical-align: middle;
 	align-items: center;
-  color: #000;
-  font-weight: 600;
+  color: #fff;
+  font-weight: 300;
   font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 .imgEff2:before {
 	position: absolute;
@@ -391,16 +389,15 @@ max-width: 25rem;
   opacity: 0; 
   white-space: pre;
   content: '\00a0　MOOD\00a0JAR\A Android / IOS App\A　\00a0React Native';
-  border: 43px solid #92EFF7;
-	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
+	background: radial-gradient(rgba(0, 0, 0,0.6), #000); 
   display: flex; 
   justify-content: center; 
   vertical-align: middle;
 	align-items: center;
-  color: #000;
-  font-weight: 600;
+  color: #fff;
+  font-weight: 300;
   font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 .imgEff3:before {
 	position: absolute;
@@ -409,17 +406,16 @@ max-width: 25rem;
 	transition-duration: 0.3s;
   opacity: 0; 
   white-space: pre;
-  content: '\00a0\00a0Quiz App\A Android App\A　\00a0\00a0Java';
-  border: 43px solid #92EFF7;
-	background: radial-gradient(rgba(155, 147, 248,0.6), #9b93f8); 
+  content: '\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Quiz App\A Android App\00a0/\00a0 Java';
+	background: radial-gradient(rgba(0, 0, 0,0.4), #000); 
   display: flex; 
   justify-content: center; 
   vertical-align: middle;
 	align-items: center;
-  color: #000;
-  font-weight: 600;
+  color: #fff;
+  font-weight: 300;
   font-family: 'Montserrat', sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 }
 .imgEff:hover:before {
   opacity: 1; 
